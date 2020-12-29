@@ -313,7 +313,7 @@ const Project: React.FC<PrjProps> = (props) => {
         <Description>{props.desc}</Description>
         <Buttons>
           <Source target="_blank" rel="noopener noreferre" href={props.github}>
-            <Github /> More images
+            <Github /> Source
           </Source>
           <Demo
             target="_blank"
