@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 import { AiFillFacebook, AiFillGithub } from 'react-icons/ai';
 
 import CurveSvg from '../../../assets/images/curve-up.svg';
@@ -51,7 +50,7 @@ const Source = styled.h3`
   letter-spacing: 1px;
 `;
 
-const SourceLink = styled(Link)`
+const SourceLink = styled.a`
   color: #fff;
 `;
 
@@ -135,7 +134,13 @@ const Footer = () => {
         </Info>
         <Source>
           Designed & built by <Text2>Do Nhat Minh</Text2>.{' '}
-          <SourceLink to="/">View source</SourceLink>
+          <SourceLink
+            target="_blank"
+            rel="noopener noreferre"
+            href="https://github.com/Hnimod/my-portfolio"
+          >
+            View source
+          </SourceLink>
         </Source>
       </Wrap>
     </FooterContainer>

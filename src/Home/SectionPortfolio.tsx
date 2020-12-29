@@ -86,8 +86,8 @@ const projectList = [
     tags: ['ReactJS', 'TypeScript', 'CSS', 'HTML'],
     desc:
       'My portfolio landing page, fully responsive, built from scratch no template was used.',
-    github: '',
-    demo: '',
+    github: 'https://github.com/Hnimod/my-portfolio',
+    demo: 'https://my-portfolio-2ef3a.web.app/',
     desktopImg: myPortfolioDesk,
     mobileImg: myPortfolioMobile,
     background: `linear-gradient(108deg, ${color.secondaryDark} 0%, #404563 100%)`,
