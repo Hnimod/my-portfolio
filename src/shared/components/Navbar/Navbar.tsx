@@ -88,6 +88,15 @@ const Navbar = () => {
             <AiFillGithub />
           </IconLink>
         </ContactIcon>
+        <ContactIcon>
+          <IconLink
+            target="_blank"
+            rel="noopener noreferre"
+            href="https://drive.google.com/file/d/10byrKnIIIsl77CnXG8rWL03samqxvRJx/view?usp=sharing"
+          >
+            CV
+          </IconLink>
+        </ContactIcon>
       </Contacts>
     </Nav>
   );

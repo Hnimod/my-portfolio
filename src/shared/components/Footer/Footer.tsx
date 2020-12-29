@@ -101,6 +101,8 @@ const Contact = styled.div`
 const LinkItem = styled.a`
   text-decoration: none;
   color: #fff;
+  display: flex;
+  align-items: center;
 `;
 
 const Footer = () => {
@@ -129,6 +131,13 @@ const Footer = () => {
               href="https://github.com/Hnimod"
             >
               <AiFillGithub />
+            </LinkItem>
+            <LinkItem
+              target="_blank"
+              rel="noopener noreferre"
+              href="https://drive.google.com/file/d/10byrKnIIIsl77CnXG8rWL03samqxvRJx/view"
+            >
+              CV
             </LinkItem>
           </Contact>
         </Info>
