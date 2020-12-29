@@ -1,6 +1,6 @@
 # My Portfolio
 
-My portfolio web page. Built from scratch, fully responsive no template was used.
+My portfolio web page. Built from scratch, fully responsive no template was used. Using TypeScript, styled-components, react-scroll.
 
 <br/>
 
