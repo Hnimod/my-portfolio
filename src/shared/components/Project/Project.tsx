@@ -298,7 +298,9 @@ const Project: React.FC<PrjProps> = (props) => {
   const [isDesktopMode, setIsDesktopMode] = useState(true);
 
   const toggleDesktopMode = () => {
-    setIsDesktopMode((prevState) => !prevState);
+    if (props.mobileImg !== '') {
+      setIsDesktopMode((prevState) => !prevState);
+    }
   };
 
   return (
