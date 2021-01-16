@@ -14,3 +14,8 @@ export const color = {
   white: '#fff',
   whiteDark: '#828c96',
 };
+
+export const links = {
+  driveResume:
+    'https://drive.google.com/file/d/1AKiRfFnhMMR7vPbg7wz2NcVAKSkTnRy6/view?usp=sharing',
+};

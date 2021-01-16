@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { AiFillFacebook, AiFillGithub } from 'react-icons/ai';
 
 import CurveSvg from '../../../assets/images/curve-up.svg';
-import { color, breakpoint } from '../../app-config';
+import { color, breakpoint, links } from '../../app-config';
 import { Text2 } from '../Typography/Typo';
 
 const FooterContainer = styled.footer`
@@ -135,7 +135,7 @@ const Footer = () => {
             <LinkItem
               target="_blank"
               rel="noopener noreferre"
-              href="https://drive.google.com/file/d/10byrKnIIIsl77CnXG8rWL03samqxvRJx/view"
+              href={links.driveResume}
             >
               CV
             </LinkItem>

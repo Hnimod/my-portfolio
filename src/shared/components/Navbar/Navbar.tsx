@@ -11,6 +11,7 @@ import {
   ContactIcon,
   IconLink,
 } from './NavbarElements';
+import { links } from '../../app-config';
 
 const Navbar = () => {
   return (
@@ -92,7 +93,7 @@ const Navbar = () => {
           <IconLink
             target="_blank"
             rel="noopener noreferre"
-            href="https://drive.google.com/file/d/10byrKnIIIsl77CnXG8rWL03samqxvRJx/view?usp=sharing"
+            href={links.driveResume}
           >
             CV
           </IconLink>
